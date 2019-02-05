@@ -82,42 +82,6 @@ The emulator is ready to go.
 
 I can start loading pages and see how they look, but before I do, I like to dock the tools to the right side of the browser window. Since most phones are viewed in portrait, docking to the right side gives me the most amount of vertical space.
 
-### 1.7 Remote Debugging Intro
-Remote debugging on an actual device is important to be able to do. The following will display some resources for this.
-
-### 1.8 Setup for mobile
-Here are two useful links
-
-- [Download Chrome Canary](https://www.google.com/chrome/browser/canary.html)
-- [Remote debugging Android devices with Chrome](https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging?hl=en)
-
-#### What is Chrome Canary and why should I use it
-Chrome Canary is the developer version of Chrome. It looks and acts like the regular Chrome browser, but it includes new and experimental features that haven't been released yet. We recommend analyzing websites with Canary to take advantage of the latest tech. However, be warned that Canary isn't guaranteed to be stable, so expect crashes and occasional bugs.
-
-#### Do I have to test on mobile
-For the purposes of this course, no. But testing your websites on mobile is a best practice, and if you have the means to do so we highly recommend it.
-
-### 1.9 Using DevTools on mobile
-Open Chrome on your development machine and go to `chrome://inspect`.
-
-Make sure the site you want to debug is open on your mobile device and then connect your laptop to your mobile device via USB. Then confirm that you want to allow USB debugging.
-
-Back in our development machine, we can see a list of the attached devices and the Chrome tabs that are open on the devices. You can open other tabs, focus on specific tabs, reload a tab and even close a tab.
-
-[![rwdf4](../assets/images/sm_rwdf4.jpg)](../assets/images/full-size/rwdf4.png)
-
-You can inspect the pages that are running on your mobile device, from your development machine, and using screen-cast mode, you can drive the experience on your mobile device from your development machine.
-
-Clicking on links will update simultaneously on the device and the desktop.
-
-### 1.10 Mobile Tools for iOS
-iOS WebKit Debug Proxy: [https://github.com/google/ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy)
-
-Please note that on the forums, there is a discussion continuing about ios-webkit-debug-proxy. Depending on your version of canary, if you're using it, it might take a lot of time and some students suggest trying Safari Dev Tools and point to links like this:
-
-[https://www.smashingmagazine.com/2014/09/testing-mobile-emulators-simulators-remote-debugging/](https://www.smashingmagazine.com/2014/09/testing-mobile-emulators-simulators-remote-debugging/)
-
-Remember you can run in simulator mode in Chrome Dev Tools.
 
 ### 1.11 Lesson Summary
 In this lesson, you have learned about responsive design, why it's so important, and you've got the tools to get started developing.
